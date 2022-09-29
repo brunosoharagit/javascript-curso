@@ -1,12 +1,17 @@
-let nome = prompt("Diga seu nome: ");
-let sobrenome = prompt("Seu sobrenome: ");
-let departamento = prompt("Qual seu campo de estudos? ");
-let anoNasc = prompt("E por último, qual seu ano de nascimento? ");
-const anoAtual = 2022;
-let idade = anoAtual - anoNasc;
+let date = new Date();
+
+const recruta = {
+    nome: prompt("Diga seu nome: "),
+    sobrenome: prompt("Seu sobrenome: "),
+    areaEstudos: prompt("Qual sua área de estudos? "),
+    anoNasc: prompt("E por último, qual seu ano de nascimento? "),
+};
+
+let idade = date.getFullYear() - recruta.anoNasc;
 
 function imprimeDados() {
-    console.log(`${nome} ${sobrenome} - ${departamento} - ${idade} anos`);
+    console.log(date)
+    alert(`${recruta.nome} ${recruta.sobrenome} - ${recruta.areaEstudos} - ${idade} anos`);
 }
 
 imprimeDados();
