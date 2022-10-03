@@ -1,4 +1,4 @@
-let valorMetro = 2;
+let valorMetro = parseInt(prompt("Qual será seu valor em metros"));
 
 let medida = prompt("Qual será a medida utilizada para conversão?");
 
@@ -21,7 +21,7 @@ switch (medida) {
         break;
 
     case "dam":
-        alert(`Valor em Decâmetro: ${valorDam(valorMetro)} dam.`);
+        alert(`Valor em Decâmetros: ${valorDam(valorMetro)} dam.`);
         break;
 
     case "dm":
@@ -35,7 +35,7 @@ switch (medida) {
     case "mm":
         alert(`Valor em Milímetros: ${valorMm(valorMetro)} mm.`);
         break;
-        
+
     default:
         alert("Medida inválida.");
 }
