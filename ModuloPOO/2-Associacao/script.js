@@ -14,5 +14,5 @@ class Empresa {
     }
 }
 
-let empresa1 = new Empresa("São Bernardo Engenharia", "Projetos e Consultoria de Engenharia", "Bruno Sohara", "000000001-0", "Projetos");
+let empresa1 = new Empresa("São Bernardo Engenharia", "Projetos e Consultoria de Engenharia", "Breno Mendonça", "000000001-0", "Projetos");
 console.log(empresa1);

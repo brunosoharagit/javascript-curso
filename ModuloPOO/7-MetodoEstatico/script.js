@@ -16,6 +16,6 @@ let yotyan = new RunescapePlayer("Yotyan", 138, 2861);
 let nana_sz = new RunescapePlayer("Nana sz", 138, 2892);
 
 //2. declara uma nova variável, para referenciar o método do objeto 
-//criado para este exemplo e referenciar cada o objeto e seus atributos
+//criado para este exemplo e referenciar cada objeto e seus atributos
 let yotyanSkill = RunescapePlayer.showSkillLvl(yotyan.skillLvl);
 let nanaSkill = RunescapePlayer.showSkillLvl(nana_sz.skillLvl);
